@@ -10,7 +10,7 @@
     * MVT - Model View Template
         * Database Logic Presentation
     * MVC - Model View Controller
-        * Database Presentation Logic
+        * Logic Presentation Co-ordinator
 * Django Software Foundations manintain [django projects](https://www.djangoproject.com/), It is non-profit organization.
 * Who uses django - Instagram, Google, Yahoo maps, Dropbox etc.
 * It is first released in 2003 as an internal projects of [lawrence journal-world news](https://www2.ljworld.com/).
