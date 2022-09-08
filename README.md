@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Language-python_3.10-important)&nbsp;
+![Django](https://img.shields.io/badge/Framework-django_2.2-important)&nbsp;
+![Update](https://img.shields.io/badge/Last%20Update-September%2009,%202022-brightgreen)&nbsp;
+
 ## Intro to Django
 
 * Django is a free and open source web framework to develop web applications.
