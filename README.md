@@ -57,10 +57,10 @@ To work with django first we've to understand  `django project` and `django appl
 
 * To create django project first you've to type `django-admin startproject ProjectName`
 * After run this command django project structured will be look like this
-    ![django-project-structure](https://cutt.ly/VCxYFjz)
+    * ![django-project-structure](https://cutt.ly/VCxYFjz)
 * Application is responsible to perform particular task.
     * `python manage.py startapp AppName`
-    ![django-app-structure](https://cutt.ly/6CYaiCq)
+    * ![django-app-structure](https://cutt.ly/6CYaiCq)
 * Web server provides environment to run the the application.
     * to run the server type `python manage.py runserver`. Default server is `127.0.0.1:8000` but we can change the port also by typing `python manage.py runserver xxxx`
 
