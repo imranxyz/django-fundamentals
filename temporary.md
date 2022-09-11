@@ -1,3 +1,6 @@
+* https://cdf.9vo.lt/ `django form`
+
+
 Django is free & open source web framework to develop web applications...It follows `MVT(Model(ORM), View(logic),Template)` architecture. Django is maintained by Django Software foundation (DSF).
 
 Django is released in 2003 as an internal project at lowrence journal-World newspaper..Creator is **Adrian Holovaty, Simon Willison**...After testing this framework with high traffic its released _21st July, 2005_ as open source project.
