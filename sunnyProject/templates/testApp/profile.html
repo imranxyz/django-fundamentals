@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% block title %} {{ profile }} Page  {% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+	<h1>To see Nora Fatehi, Scroll below</h1>
+	<img src="https://c.ndtvimg.com/2021-11/qmfgqpmo_nora-fatehi_625x300_24_November_21.jpeg" alt='dancer'>
+	<img src="{% static 'images/nora.jpg' %}" alt="nora">
+
+	<p> Go to <a href="{% url 'home' %}">Home</a>  Page </p>
+	
+</body>
+</html>
