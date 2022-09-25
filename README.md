@@ -1,7 +1,7 @@
 ![Language](https://img.shields.io/badge/Language-Python_3.10-important)&nbsp;
 ![Django](https://img.shields.io/badge/Framework-Django_2.2-important)&nbsp;
 ![Update](https://img.shields.io/badge/Last%20Update-September%2020,%202025-brightgreen)&nbsp;
-![Completed](https://img.shields.io/badge/Watched_till-58-important)&nbsp;
+![Completed](https://img.shields.io/badge/Watched_till-61-important)&nbsp;
 
 ## Intro to Django
 
