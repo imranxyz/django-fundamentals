@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Hyderbad Jobs {% endblock %}</title>
+</head>
+<body>
+    {% if employees %}
+        <table border="1px" align="center">
+            <tr style="text-align: center">
+                <th>Date</th>
+                <th>Company</th>
+                <th>Title</th>
+                <th>Eligibility</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Number</th>
+            </tr>
+
+            {% for employee in employees %}
+            <tr style="text-align: center">
+                <td>{{ employee.date }}</td>
+                <td>{{ employee.company }}</td>
+                <td>{{ employee.title }}</td>
+                <td>{{ employee.eligibility }}</td>
+                <td>{{ employee.address }}</td>
+                <td>{{ employee.email }}</td>
+                <td>{{ employee.phone_number }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <h2>No Data Found</h2>
+    {% endif %}
+</body>
+</html>
