@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load swapcase %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body style="font-family: operator mono; text-align: left;">
+	{% for record in filters %}
+		<ul>
+			<li>{{ record.name|swapcase }}</li>
+			<li>{{ record.subjects|stringCat:2 }}</li>
+			<li>{{ record.age }}</li>
+			<li>{{ record.date|date:'D M, Y' }}</li>
+		</ul>
+	{% endfor %}
+</body>
+</html>

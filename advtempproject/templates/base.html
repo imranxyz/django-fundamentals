@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+	<h1>Durga News</h1>
+	<div>
+		<a href="{% url 'home' %}"><h2>Home</h2></a>
+		<a href="{% url 'movies' %}"><h2>Movies</h2></a>
+		<a href="{% url 'sports' %}"><h2>Sports</h2></a>
+		<a href="{% url 'politics' %}"><h2>Politics</h2></a>
+	</div>
+	{% block content %}
+
+	{% endblock %}
+</body>
+</html>
