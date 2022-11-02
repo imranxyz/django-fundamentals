@@ -28,4 +28,4 @@
     * Versatile
 * Django has clear [documentation](https://docs.djangoproject.com/en/4.1/) and built in polling application as tutorial.
 
-> ## To view full [notes](https://hackmd.io/@imran-potter/Hk2qmzXgi)
+> ### To view full [notes](https://hackmd.io/@imran-potter/Hk2qmzXgi)
